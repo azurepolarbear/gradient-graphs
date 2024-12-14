@@ -6,7 +6,7 @@ Copyright (C) 2022-2024 brittni and the polar bear LLC. Some rights reserved.
 
 Originally created in March 2022, the gradient graphs generative art project
 was released by [brittni watkins](https://github.com/blwatkins) on the fx(hash)
-generative art NFT marketplace in May 2022.
+generative art NFT marketplace on May 8, 2022.
 
 [gradient graphs on fx(hash)](https://www.fxhash.xyz/generative/12566)
 
