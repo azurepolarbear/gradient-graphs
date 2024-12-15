@@ -1,0 +1,66 @@
+{
+  "name": "gradient-graphs",
+  "version": "2.0.0-rc.1",
+  "description": "the gradient graphs algorithmic art project.",
+  "private": true,
+  "scripts": {
+    "build:dev": "webpack --mode development",
+    "build:prod": "webpack --mode production",
+    "dev": "webpack-dev-server --mode development",
+    "lint:js": "eslint -c eslint.config.js.mjs eslint.config.ts.mjs eslint.config.js.mjs webpack.config.js",
+    "lint:ts": "eslint -c eslint.config.ts.mjs ./src",
+    "stats": "webpack --mode development --profile --json > ./out/stats.json",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/azurepolarbear/gradient-graphs.git"
+  },
+  "keywords": [
+    "algorithmic art",
+    "code art",
+    "generative art",
+    "p5",
+    "p5.js",
+    "p5js",
+    "p5-js",
+    "typescript",
+    "graph theory",
+    "graphs",
+    "gabriel graph",
+    "random geometric graph"
+  ],
+  "author": {
+    "name": "azurepolarbear",
+    "url": "https://linktr.ee/azurepolarbear"
+  },
+  "license": "AGPL-3.0",
+  "bugs": {
+    "url": "https://github.com/azurepolarbear/gradient-graphs/issues"
+  },
+  "homepage": "https://github.com/azurepolarbear/gradient-graphs#readme",
+  "dependencies": {
+    "@batpb/genart": "^2.0.0-rc2",
+    "p5": "^1.11.2"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.17.0",
+    "@stylistic/eslint-plugin": "^2.12.1",
+    "@types/eslint__js": "^8.42.3",
+    "@types/p5": "^1.7.6",
+    "css-loader": "^7.1.2",
+    "eslint": "^9.17.0",
+    "eslint-plugin-es-x": "^8.4.1",
+    "eslint-plugin-n": "^17.15.0",
+    "eslint-plugin-security": "^3.0.1",
+    "html-webpack-plugin": "^5.6.3",
+    "mini-css-extract-plugin": "^2.9.2",
+    "ts-loader": "^9.5.1",
+    "typescript": "^5.7.2",
+    "typescript-eslint": "^8.18.0",
+    "webpack": "^5.97.1",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^5.2.0"
+  }
+}
+  
